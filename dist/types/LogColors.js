@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var LogColors;
+(function (LogColors) {
+    LogColors["RESET"] = "\u001B[0m";
+    LogColors["BRIGHT"] = "\u001B[1m";
+    LogColors["DIM"] = "\u001B[2m";
+    LogColors["UNDERSCORE"] = "\u001B[4m";
+    LogColors["BLINK"] = "\u001B[5m";
+    LogColors["REVERSE"] = "\u001B[7m";
+    LogColors["HIDDEN"] = "\u001B[8m";
+    LogColors["FG_BLACK"] = "\u001B[30m";
+    LogColors["FG_RED"] = "\u001B[31m";
+    LogColors["FG_GREEN"] = "\u001B[32m";
+    LogColors["FG_YELLOW"] = "\u001B[33m";
+    LogColors["FG_BLUE"] = "\u001B[34m";
+    LogColors["FG_MAGENTA"] = "\u001B[35m";
+    LogColors["FG_CYAN"] = "\u001B[36m";
+    LogColors["FG_WHITE"] = "\u001B[37m";
+    LogColors["BG_BLACK"] = "\u001B[40m";
+    LogColors["BG_RED"] = "\u001B[41m";
+    LogColors["BG_GREEN"] = "\u001B[42m";
+    LogColors["BG_YELLOW"] = "\u001B[43m";
+    LogColors["BG_BLUE"] = "\u001B[44m";
+    LogColors["BG_MAGENTA"] = "\u001B[45m";
+    LogColors["BG_CYAN"] = "\u001B[46m";
+    LogColors["BG_WHITE"] = "\u001B[47m";
+})(LogColors = exports.LogColors || (exports.LogColors = {}));
