@@ -3,7 +3,7 @@ interface IArgs {
   out?: string
 }
 
-const parseArgv = (): IArgs => {
+export const parseArgv = (): IArgs => {
   const argv = process.argv.slice(2)
 
   let lastKey = ''
