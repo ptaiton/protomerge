@@ -2,14 +2,22 @@
   "name": "protomerge",
   "version": "1.0.0",
   "description": "",
+  "repository": "https://github.com/ptaiton/protomerge.git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build && node dist/index.js",
+    "dev": "nodemon",
+    "build": "tsc"
   },
   "bin": {
-    "protomerge": "./dist/protomerge.js"
+    "protomerge": "./dist/index.js"
   },
-  "preferGlobal": true,
-  "author": "",
+  "devDependencies": {
+    "@types/node": "^12.7.11",
+    "nodemon": "^1.19.3",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "author": "ptaiton",
   "license": "ISC"
 }
